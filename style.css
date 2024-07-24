@@ -46,18 +46,18 @@ a{
 
 @media screen and (min-width:940px) {
     .main_container{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,minmax(450px,1fr));
     }
 }
 @media screen and (min-width:1375px) {
     .main_container{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3,minmax(450px,1fr));
     }
 }
     
 @media screen and (min-width:1850px) {
     .main_container{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4,minmax(450px,1fr));
     }
 }
 
