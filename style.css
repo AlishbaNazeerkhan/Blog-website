@@ -43,6 +43,7 @@ a{
     gap: 1.5rem;
     /* grid-template-columns: repeat(1,1fr); */
     grid-template-columns: repeat(1,minmax(500px,1fr));
+     justify-content: center;  /* main container is centered  */
 }
 
 @media screen and (min-width:940px) {
@@ -64,6 +65,79 @@ a{
         grid-template-columns: repeat(4,minmax(300px,1fr));
     }
 }
+
+/* setting media queries */
+@media (max-width: 1024px) {
+    .main_container{
+        grid-template-columns: repeat(2,minmax(350px,1fr));
+    }
+}
+
+@media (max-width: 912px) {
+    .main_container{
+        grid-template-columns: repeat(2,minmax(300px,1fr));
+    }
+}
+
+@media (max-width: 540px) {
+    .main_container{
+        grid-template-columns: repeat(1,minmax(300px,1fr));
+    }
+    .header_desc{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 344px) {
+    .main_container{
+        grid-template-columns: repeat(1,minmax(230px,1fr));
+        justify-content: center;
+    }
+    .header_desc{
+        width: 100%;
+        font-size: 10px;
+    }
+    .card_description{
+        font-size: 13px;
+    }
+    .author_date{
+        font-size: 9px;
+    }
+    .author_name{
+        font-size: 12px;
+    }
+    .tag_container{
+        font-size: 10px;
+        margin: auto ;
+        padding: 0 2px !important;
+    }
+}
+@media (max-width: 660px){
+    .main_container{
+        grid-template-columns: repeat(2,minmax(250px,1fr));
+    }
+    .header_desc{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 470px) {
+    .main_container{
+        grid-template-columns: repeat(1,minmax(280px,1fr));
+    }
+    .header_desc{
+        width: 100%;
+        font-size: 12px;
+    }
+}
+@media (max-width: 412px){
+    .main_container{
+        grid-template-columns: repeat(1,minmax(250px,1fr));
+    }
+}
+
+/* setting media queries */
 
 .card_container{
     overflow: hidden;
@@ -162,7 +236,5 @@ a{
 }
 
 .tag_container:hover{
-    background-color: rgb(226, 220, 220);
+    background-color: rgb(226, 220, 220);
 }
-
-
