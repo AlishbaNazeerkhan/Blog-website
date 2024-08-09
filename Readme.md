@@ -1,5 +1,4 @@
 # Blog-website
-This repository serves as a comprehensive portfolio of my projects, showcasing my proficiency in a diverse TechStack that includes HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS.
 
 ## Overview
 This repository showcases a simple blog website created using only HTML and CSS. The project features a clean and modern design with a responsive grid layout to display various blog posts. Each blog card includes an image, title, author information, and publication date, providing a comprehensive view of the content.
